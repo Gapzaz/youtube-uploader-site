@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — YouTube Uploader</title>
+  <meta name="description" content="Privacy policy for a personal YouTube upload automation project.">
+  <style>
+    :root { color-scheme: light dark; --accent: #d93025; --card: rgba(127,127,127,.09); }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.7 system-ui, -apple-system, Segoe UI, sans-serif; }
+    header { border-bottom: 1px solid rgba(127,127,127,.3); }
+    .wrap { width: min(900px, 92%); margin: auto; }
+    header .wrap { padding: 24px 0; }
+    main { padding: 38px 0 52px; }
+    h1 { line-height: 1.2; font-size: clamp(2rem, 5vw, 2.8rem); }
+    h2 { margin-top: 30px; }
+    a { color: var(--accent); }
+    nav a { margin-right: 18px; }
+    .note { background: var(--card); border-radius: 12px; padding: 16px; }
+    footer { border-top: 1px solid rgba(127,127,127,.3); padding: 22px 0; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <strong>YouTube Uploader</strong>
+      <nav aria-label="Main navigation" style="margin-top:10px">
+        <a href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated:</strong> October 17, 2026</p>
+    <p>This policy describes the personal YouTube upload automation script operated by its owner (“the application”). The script runs on the owner's own computer or server and uses Google OAuth 2.0 and the YouTube Data API.</p>
+
+    <h2>Information the application accesses</h2>
+    <p>When the owner authorizes the application, it may access Google/YouTube account data permitted by the OAuth scopes granted to it. The script uses this access to upload video files and, where configured, manage uploaded video details or playlists on the owner's YouTube channel.</p>
+    <p>The script processes video files and associated information such as video titles, upload status, and YouTube video identifiers. The exact operations depend on the local script configuration.</p>
+
+    <h2>How information is used</h2>
+    <ul>
+      <li>To upload the owner's selected videos to the owner's YouTube channel.</li>
+      <li>To track which files have been uploaded and avoid unintended repeat uploads.</li>
+      <li>To perform other YouTube actions explicitly configured by the owner in the local script.</li>
+    </ul>
+
+    <h2>Storage and sharing</h2>
+    <p>OAuth credentials, tokens, upload records, and video files are intended to be stored on the owner's own computer or server. The owner is responsible for securing that system and its backups. The application operator does not offer a separate hosted service that collects visitors' video files.</p>
+    <p>The application does not sell personal information. Data is sent to Google/YouTube as needed for the authorized API operations and is handled by Google under its own policies. The static website itself does not include a form for collecting personal information.</p>
+
+    <h2>Data retention and deletion</h2>
+    <p>The owner can remove local token and upload-history files from the system where the script runs. Videos already uploaded to YouTube must be managed through YouTube or the script's configured functionality. Deleting local data does not automatically delete data already held by Google/YouTube.</p>
+
+    <h2>Security</h2>
+    <p>The owner should restrict access to OAuth credential files and token files and should never publish them in a public repository. No method of storage or transmission can be guaranteed completely secure.</p>
+
+    <h2>Children's privacy</h2>
+    <p>This personal automation project is not designed to collect information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>This policy may be updated when the application's functionality or data handling changes. The latest version will be published on this page.</p>
+
+    <h2>Contact</h2>
+    <p>Project owner: <strong>[Replace with your name or project owner label]</strong><br>
+    Contact: <strong>[Replace with a contact email address]</strong></p>
+    <div class="note"><strong>Important:</strong> Replace the contact placeholders and review this policy against what your current script actually does before using this URL in Google Cloud. Do not claim practices that are not true for your application.</div>
+  </main>
+  <footer>
+    <div class="wrap"><a href="./index.html">Home</a> · YouTube Uploader Privacy Policy</div>
+  </footer>
+</body>
+</html>

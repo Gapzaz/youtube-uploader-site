@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Uploader — Personal Automation</title>
+  <meta name="description" content="Information about a personal YouTube video upload automation project.">
+  <style>
+    :root { color-scheme: light dark; --accent: #d93025; --card: rgba(127,127,127,.09); }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif; }
+    header { border-bottom: 1px solid rgba(127,127,127,.3); }
+    .wrap { width: min(900px, 92%); margin: auto; }
+    header .wrap { padding: 24px 0; }
+    main { padding: 48px 0; }
+    h1 { line-height: 1.15; font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 18px; }
+    h2 { margin-top: 32px; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .panel { background: var(--card); border-radius: 16px; padding: 22px; margin: 24px 0; }
+    a { color: var(--accent); }
+    nav a { margin-right: 18px; }
+    footer { border-top: 1px solid rgba(127,127,127,.3); padding: 22px 0; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <strong>YouTube Uploader</strong>
+      <nav aria-label="Main navigation" style="margin-top:10px">
+        <a href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">Personal project</p>
+    <h1>YouTube video upload automation</h1>
+    <p>This website describes a personal automation project that uploads video files to the owner's YouTube channel using the YouTube Data API.</p>
+
+    <section class="panel">
+      <h2 style="margin-top:0">What the application does</h2>
+      <ul>
+        <li>Uploads video files selected by the owner to the owner's YouTube channel.</li>
+        <li>Uses Google OAuth 2.0 to obtain permission to access the owner's YouTube account.</li>
+        <li>May set uploaded videos to private, according to the owner's local script configuration.</li>
+        <li>Runs on the owner's own computer or server; this website does not provide an upload service to visitors.</li>
+      </ul>
+    </section>
+
+    <h2>Who operates this project?</h2>
+    <p>This is a personal project operated by its owner, not a public service for other users.</p>
+
+    <h2>Privacy</h2>
+    <p>This website is a static information page. It does not provide sign-in forms, collect video files, or intentionally collect personal information through forms.</p>
+    <p>For information about the local automation script and its use of Google/YouTube data, read the <a href="./privacy.html">Privacy Policy</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Project owner: <strong>[Replace with your name or project owner label]</strong><br>
+    Contact: <strong>[Replace with a contact email address]</strong></p>
+    <p><strong>Before publishing:</strong> replace the two contact placeholders above with accurate information.</p>
+  </main>
+  <footer>
+    <div class="wrap">Personal YouTube upload automation project · <a href="./privacy.html">Privacy Policy</a></div>
+  </footer>
+</body>
+</html>
