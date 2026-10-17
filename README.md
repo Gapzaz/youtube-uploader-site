@@ -17,3 +17,9 @@ This folder contains a simple static home page and privacy policy for a personal
 5. Test both the home page and `/privacy.html`.
 
 Note: a `github.io` URL is free hosting, but Google OAuth may still require a domain you own and have verified. Do not assume GitHub Pages alone satisfies every OAuth Production requirement.
+
+
+## Contact
+
+Project owner: **Sarot Chotnok**  
+Contact: **sarot2560@gmail.com**
